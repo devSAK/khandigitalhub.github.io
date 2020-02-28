@@ -139,7 +139,7 @@ ul.socal_link li a{ font-size:22px !important;}
 .demo{ background:#e5e5e5;}
 .our-team{ border:2px solid #083b66; border-radius:10px; text-align:center; margin:10px 10px 30px 10px; z-index: 1; position: relative;}
 .our-team:before,
-.our-team:after{ content:""; width:100%; height:104%; background:#083b66; position:absolute; top:50%; left:0; z-index:-1; transform:translateY(-50%) scaleX(0.3); transition:all 0.3s ease 0s;}
+.our-team:after{ content:""; width:100%; height:106%; background:#083b66; position:absolute; top:50%; left:0; z-index:-1; transform:translateY(-50%) scaleX(0.3); transition:all 0.3s ease 0s;}
 .our-team:after{ width:106%; left:50%; transform:translate(-50%, -50%) scaleY(0.25);}
 .our-team:hover:before{ transform: translateY(-50%) scaleX(0.7); }
 .our-team:hover:after{ transform: translate(-50%, -50%) scaleY(0.7); }
