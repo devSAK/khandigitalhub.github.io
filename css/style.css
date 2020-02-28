@@ -142,7 +142,7 @@ ul.socal_link li a{ font-size:22px !important;}
 	.navbar-nav{ margin-top:0; margin-bottom:0;}
 	.navbar-nav li{ padding-top:0px; border-bottom:#fff solid 1px;}
 	.navbar-nav li a{ padding:10px;}
-	.navbar-nav li a:hover{ padding:10px;}
+	.navbar-nav li a:hover{ padding:10px; background:#083b66 !important; color:#fff !important;}
 	.navbar-toggle{ background:#a4f03a; margin-top:11px;}
 	.navbar-toggle span{ background:#000 !important;}
 	.header_top ul{ float:left !important;}
@@ -157,11 +157,11 @@ ul.socal_link li a{ font-size:22px !important;}
 	.successful_student_part h2{ text-transform:none; font-size:25px; margin-top:15px;}
 	.testimonials .student{ float:none;}
 	.testimonials{ text-align:center;}
-	.inner_banner{ margin-bottom:0;}
+	.inner_banner{ margin-bottom:20px;}
 	.inner_banner h2{ font-size:35px;}
 	.inner_banner h2 strong{ font-size:53px;}
 	.inner_row h2{ padding-top:20px;}
 	.dropdown .dropdown-menu li{ padding:0px 0px;}
-	.navbar-nav .open .dropdown-menu>li>a{ padding:10px 25px 10px 25px;
-        footer ul{ width:100%; display:block;}
+	.navbar-nav .open .dropdown-menu>li>a{ padding:10px 25px 10px 25px;}
+    footer ul{ width:100%; display:block;}
 }
