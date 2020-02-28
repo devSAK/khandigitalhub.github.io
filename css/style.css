@@ -39,9 +39,8 @@ body{ font-family:'Open Sans',sans-serif;}
 .business_box{ background:#3d3d47; padding:55px 15px 10px 15px; position:relative; margin-top:60px; min-height:190px; text-align:center; position:relative;}
 .business_box p{ font-size:25px; color:#fff; line-height:24px;}
 .business_box1 h2,.business_box2 h2,.business_box3 h2{ color:#29b5ee; font-weight:600; font-size:35px; margin:0 0 10px 0;}
-.business_box1{ border-bottom:#29b5ee solid 5px;}
+.business_box1,.business_box3{ border-bottom:#29b5ee solid 5px;}
 .business_box2{ border-bottom:#a4f03a solid 5px;}
-.business_box3{ border-bottom:#29b5ee solid 5px;}
 
 .successful_student_part{ background:#efefef; padding:50px 0; margin:50px 0 50px 0;}
 .successful_student_part h2{ color:#2F568C; font-size:30px; margin:0px 0 30px 0; font-weight:600; position:relative; text-transform:uppercase;}
