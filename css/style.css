@@ -18,7 +18,7 @@ body{ font-family:'Open Sans',sans-serif;}
 .navbar-nav li a{ padding:18px; color:#083b66 !important; text-transform:uppercase; font-weight:600;}
 .navbar-nav li a:hover{ background:#a4f03a !important; padding:18px;}
 .navbar-brand{ height:auto; padding:0;}
-.navbar-brand img{ width:100px !important; height:56px; border-radius:20% !important; padding-left:10px;}
+.navbar-brand img{ width:100px !important; height:56px; border-radius:20% !important; padding-left:10px !important;}
 .navbar-default{ border:none;}
 .dropdown-menu { border-radius:0; padding:0;} 
 
@@ -139,7 +139,6 @@ ul.socal_link li a{ font-size:22px !important;}
 
 @media only screen and (max-width:700px){
 	.navbar-collapse{ background:#a4f03a;}
-	.navbar-brand img{ margin-left:10px;}
 	.navbar-nav{ margin-top:0; margin-bottom:0;}
 	.navbar-nav li{ padding-top:0px; border-bottom:#fff solid 1px;}
 	.navbar-nav li a{ padding:10px;}
@@ -164,5 +163,5 @@ ul.socal_link li a{ font-size:22px !important;}
 	.inner_row h2{ padding-top:20px;}
 	.dropdown .dropdown-menu li{ padding:0px 0px;}
 	.navbar-nav .open .dropdown-menu>li>a{ padding:10px 25px 10px 25px;
-    footer ul{ width:100%; display:block;}
+        footer ul{ width:100%; display:block;}
 }
