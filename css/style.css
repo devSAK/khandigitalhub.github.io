@@ -17,7 +17,7 @@ body{ font-family:'Open Sans',sans-serif;}
 .navbar-nav li{ font-size:14px;}
 .navbar-nav li a{ padding:18px; color:#083b66 !important; text-transform:uppercase; font-weight:600;}
 .navbar-nav li a:hover{ background:#a4f03a !important; padding:18px;}
-.navbar-nav li a .active{ background:#083b66; padding:18px; color:#fff;}
+.navbar-nav li a .active{ background:#083b66 !important; padding:18px; color:#fff !important;}
 .navbar-brand{ height:auto; padding:0;}
 .navbar-brand img{ width:100px !important; height:56px; border-radius:20% !important; padding-left:10px !important;}
 .navbar-default{ border:none;}
