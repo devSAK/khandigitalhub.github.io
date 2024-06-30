@@ -33,6 +33,34 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]----->
+
+    <!-----Pi SDK----->
+    <script src="https://sdk.minepi.com/pi-sdk.js"></script>
+    <script> Pi.init({ version: "2.0", sandbox: true }) </script>
+    <!-----Authenticate Pi User----->
+    <script> 
+    // Authenticate the user, and get permission to request payments from them:
+    const scopes = ;
+
+    // Read more about this callback in the SDK reference:
+    function onIncompletePaymentFound(payment) { 
+        paymentId = payment.identifier
+        txid = payment.transaction.txid
+        $.post('/payment/complete',
+                {
+                    paymentId: paymentId,
+                    txid: txid,
+                    debug: 'cancel'
+                }
+            )
+    };
+
+    Pi.authenticate(scopes, onIncompletePaymentFound).then(function(auth) {
+      console.log('woot!');
+    }).catch(function(error) {
+      console.error(error);
+    });
+</script>
 </head>
 
 <body>
